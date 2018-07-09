@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { SecurityModule } from './modules/security/security.module';
+import { HomeModule } from './modules/home/home.module';
 import { LandingNavbarComponent } from './components/landing-navbar/landing-navbar.component';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { LandingNavbarComponent } from './components/landing-navbar/landing-navb
   imports: [
     BrowserModule,
     SecurityModule,
+    HomeModule,
     AppRoutingModule
   ],
   providers: [],

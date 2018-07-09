@@ -11,5 +11,5 @@ import { LandingNavbarComponent } from './landing-navbar/landing-navbar.componen
     LandingNavbarComponent
   ]
 })
-export class SecurityModule {
+export class ComponentModule {
 }
