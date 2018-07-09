@@ -27,9 +27,23 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/scss/normalize.scss",
+              "src/assets/scss/bootstrap.scss",
+              "src/assets/scss/owl.scss",
+              "src/assets/scss/animate.scss",
+              "src/assets/scss/cardio.scss",
+              "src/assets/fonts/font-awesome-4.1.0/css/font-awesome.min.css",
+              "src/assets/fonts/eleganticons/et-icons.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/assets/js/jquery-1.11.1.min.js",
+              "./src/assets/js/owl.carousel.min.js",
+              "./src/assets/js/bootstrap.min.js",
+              "./src/assets/js/wow.min.js",
+              "./src/assets/js/typewriter.js",
+              "./src/assets/js/jquery.onepagenav.js",
+              "./src/assets/js/main.js"]
           },
           "configurations": {
             "production": {
