@@ -5,11 +5,11 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: '/security/login'
+    redirectTo: '/home'
   },
   {
     path: '**',
-    redirectTo: '/security/login'
+    redirectTo: '/home'
   }
 ];
 

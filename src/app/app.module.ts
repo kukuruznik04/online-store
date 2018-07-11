@@ -5,17 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SecurityModule } from './modules/security/security.module';
 import { HomeModule } from './modules/home/home.module';
-import { LandingNavbarComponent } from './components/landing-navbar/landing-navbar.component';
+import { CabinetModule } from './modules/cabinet/cabinet.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LandingNavbarComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     SecurityModule,
     HomeModule,
+    CabinetModule,
     AppRoutingModule
   ],
   providers: [],
